@@ -20,9 +20,9 @@ const morgan      = require('morgan')
 const cors        = require('cors')
 //const knex        = require('./connection.js')
 const app         = module.exports = express()
-const port        = parseInt(process.env.PORT || 3000)
+const port        = process.env.PORT || 3000
 
-app.get('/',(request,response)=> response.send('greetings, Globe!'))
+app.get('/',(request,response)=> response.send('success'))
 
 
 app.use(bodyParser.json())
