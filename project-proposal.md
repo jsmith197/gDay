@@ -1,3 +1,5 @@
+Proposal Page in Repository Below:
+
 # Group Project Proposal:
 gDay : Galvanize Alumni Day
 
@@ -20,18 +22,15 @@ This is an annual reunion for ALL graduates, cohorts, and members of the Galvani
     
 Some of the first jewels of wisdom we received at Galvanize was the importance of attending Meetups, networking, and getting involved. Shouldn’t there be a way to stay connected with our immediate community of developers, a concerted effort to stay engaged with the individuals who share the not-so-common drive and experience that it takes to become a Galvanize alumnus?
 
-
-
-
 ## How will your project solve this problem?
     
 Our application not only serves as the driver for the annual event, but it also allows graduates the ability to connect with each other leading up to gDay.
 
-Refine this idea and add to list of possible future iterations - Our app also helps alumni stay up to date on relevant industry events and happenings with a curated list designed to cater to the Galvanize grads. With short graduate profiles and a calendar of alumni events, past gSchool students can connect in a fun and productive way.
+Our app also helps alumni stay up to date on relevant industry events and happenings with a curated list designed to cater to the Galvanize grads. With short graduate profiles and a calendar of alumni events, past gSchool students can connect in a fun and productive way.
 
 ## Map the user experience:
 
-Great start, rework for clarity - When a Galvanize graduate visits the gDay app, they will find a simple way to create a profile, register for gDay, shop gSchool swag, and contact gSchool and their gSchool alumni.  The features are as follows:
+When a Galvanize graduate visits the gDay app, they will find a simple way to create a profile, register for gDay, shop gSchool swag, and contact gSchool and their gSchool alumni.  The features are as follows:
 
 ## What technologies do you plan to use?
 
@@ -39,4 +38,3 @@ Great start, rework for clarity - When a Galvanize graduate visits the gDay app,
 
 • HTML • CSS • JS • Vue.js • Cypress • Postgres • Express • Knex • Heroku  
 • Bootstrap/Bootswatch  • Postman  • Node.js 
-• Galvanize API ? 
