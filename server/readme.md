@@ -1,0 +1,1 @@
+gDay app, this directory is for server side files
