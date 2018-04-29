@@ -7,11 +7,17 @@ WEB APP • REGISTRATION • gCALENDAR • SWAG
 
 Google Doc Created by James Truitt: https://docs.google.com/document/d/1w0XKwmreZvrSGrTH78j7YQfFuDsITaDVuiTPOZIqKPQ/edit
 
+Google Proposal Doc:
+https://docs.google.com/document/d/12D7pAaD-0g_bpK-WE25kqR3mKVBGTM38b2oFavo9uyU/edit
+
+GitHub Project Repo:
+https://github.com/404-kid/gDay
+
 
 
 
 // Developers: Savannah Adams
-               Ryan Hackerman 
+               Ryan Hackemer 
                Clark Newell
                Job Smith
                James Truitt
