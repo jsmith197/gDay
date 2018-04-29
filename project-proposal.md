@@ -4,7 +4,7 @@ Proposal Page in Repository Below:
 gDay : Galvanize Alumni Day
 
 ## Group Members:
-Clark Newell, James Truitt, Job Smith, Ryan Hackerman, Savannah Adams
+Clark Newell, James Truitt, Job Smith, Ryan Hackemer, Savannah Adams
 
 ## Project Description:
 
