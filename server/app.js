@@ -18,9 +18,11 @@ const express     = require('express')
 const bodyParser  = require('body-parser')
 const morgan      = require('morgan')
 const cors        = require('cors')
-const knex        = require('./connection.js')
+//const knex        = require('./connection.js')
 const app         = module.exports = express()
 const port        = parseInt(process.env.PORT || 3000)
+
+app.get('/',(request,response)=> response.send('greetings, Globe!'))
 
 
 app.use(bodyParser.json())
@@ -51,28 +53,28 @@ app.listen(port)
 
 // The following should be inserted in the knexfile.js and may be added to as needed
 
-module.exports = {
+// module.exports = {
 
-  development: {
-    client: 'pg',
-    connection: 'postgres://localhost/<your database name here>'
-  },
-  production: {
-    client: 'pg',
-    connection: process.env.DATABASE_URL + '?ssl=true'
-  }
+//   development: {
+//     client: 'pg',
+//     connection: 'postgres://localhost/<your database name here>'
+//   },
+//   production: {
+//     client: 'pg',
+//     connection: process.env.DATABASE_URL + '?ssl=true'
+//   }
 
-};
+// };
 
 // The following code should be added to the connection.js file
 
-const environment = process.env.NODE_ENV || 'development'
-const config = require('./knexfile')
-const configEnv = config[environment]
-const knex = require('knex')
-const connection = knex(configEnv)
+// const environment = process.env.NODE_ENV || 'development'
+// const config = require('./knexfile')
+// const configEnv = config[environment]
+// const knex = require('knex')
+// const connection = knex(configEnv)
 
-module.exports = connection
+// module.exports = connection
 
 // For migrations and seeds run the following commands
 
@@ -83,19 +85,19 @@ module.exports = connection
 
 // Migrations
 
-exports.up = function(knex, Promise) {
-  return knex.schema.createTable('beers', (table) => {
-    table.increments()
-    table.text('name')
-    table.text('brewery')
-    table.text('style')
-    table.integer('rating')
-  })
-};
+// exports.up = function(knex, Promise) {
+//   return knex.schema.createTable('beers', (table) => {
+//     table.increments()
+//     table.text('name')
+//     table.text('brewery')
+//     table.text('style')
+//     table.integer('rating')
+//   })
+// };
 
-exports.down = function(knex, Promise) {
-  return knex.schema.dropTableIfExists('beers')
-};
+// exports.down = function(knex, Promise) {
+//   return knex.schema.dropTableIfExists('beers')
+// };
 
 // Seeds
 
