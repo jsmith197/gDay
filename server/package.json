@@ -8,10 +8,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/404-kid/gDay.git"
-  },
   "author": "Ryan Job Clark Tru Savannah",
   "license": "ISC",
   "bugs": {
