@@ -30,7 +30,73 @@ Our app also helps alumni stay up to date on relevant industry events and happen
 
 ## Map the user experience:
 
-When a Galvanize graduate visits the gDay app, they will find a simple way to create a profile, register for gDay, shop gSchool swag, and contact gSchool and their gSchool alumni.  The features are as follows:
+One of the fundamentals gStudents learn is that networking is the key to being successful in the tech industry.  The user would benefit from having a platform where they can connect or reconnect with gSchool Alumni.  When a Galvanize graduate visits the gDay app, they will find a simple way to create a profile, register for gDay, shop gSchool swag, and contact gSchool and their gSchool alumni.
+
+User Stories for gDay App Features:
+
+The user needs to:
+    * Have the ability to connect with other gSchool alumni in a fun and productive way.
+    * Stay up to date on relevant industry events and happenings.
+    * Create a short graduate profile.
+    * Access a calendar of alumni events.
+
+The user needs:
+
+    * Create a simple personal profile via Sign Up.
+    * Register for gDay events via Schedule.
+    * Shop gSchool swag (merch) via Shop.
+    * Contact gSchool alumni via Community.
+    * Contact gSchool (Galvanize) via Contact.
+
+
+First features to build:
+
+    * Login:
+        - Login username
+        - Login password
+
+    * Sign up:
+        - First Name
+        - Last Name
+        - Email
+        - Password
+        - Password confimation
+        
+    * Schedule: 
+        - About event
+            - Feature for checking yes no maybe attending this event
+            - Feature to add even to your Google calendard
+        - D3 / Time table visualization 
+        - Google campus map for functionality
+    
+    * Community:
+        - Name
+        - Job title
+        - Photos
+        - gSchool 
+        - Cohort number
+    
+    * Shop: 
+        - Swag/merch
+        - Better version of logo
+
+    * Contact:
+        - Email
+        - Twitter
+        - Galvanize Website
+        - YouTube
+
+
+***** Later Features to Add:
+
+Login:
+   - Consider bot protection (type these letters and numbers)
+
+Profile:
+   - Picture of alumni
+   - Bio
+   - Cohort Number
+   - Employer
 
 ## What technologies do you plan to use?
 
