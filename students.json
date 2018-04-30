@@ -3,7 +3,7 @@
         {
         "name":"Savannah Adams",
         "email":"savannah.adams0@gmail.com",
-        "image":"",
+        "image":"https://i.imgur.com/KNx6jMW.jpg",
         "bio":"Ambitious full stack developer, with a background in linguistics and language.",
         "employer":"N/A",
         "position":"full-stack developer",
@@ -12,7 +12,7 @@
             },  {
                 "name":"Ryan Hackemer",
                 "email":"rhackemer@gmail.com",
-                "image":"",
+                "image":"https://i.imgur.com/wYePoDC.png?2",
                 "bio":"Talented full snack developer. Specialize in everything from pretzels to dried fruits. I can also code.",
                 "employer":"N/A",
                 "position":"full-stack developer",
@@ -21,7 +21,7 @@
                     }, {
                         "name":"William Clark Newell",
                         "email":"williamcnewell@gmail.com",
-                        "image":"",
+                        "image":"https://i.imgur.com/Crll06E.jpg",
                         "bio":"I am Clark. I did not write a bio.",
                         "employer":"N/A",
                         "position":"full-stack developer",
@@ -30,7 +30,7 @@
                             },{
                                 "first_name":"James Truitt",
                                 "email":"tru@rockyagirl.com",
-                                "image":"",
+                                "image":"https://i.imgur.com/kfLGo2a.png",
                                 "bio":"I am Tru, I did not write a bio",
                                 "employer":"N/A",
                                 "position":"full-stack developer",
