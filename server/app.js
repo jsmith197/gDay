@@ -18,7 +18,7 @@ const express     = require('express')
 const bodyParser  = require('body-parser')
 const morgan      = require('morgan')
 const cors        = require('cors')
-//const knex        = require('./connection.js')
+const knex        = require('./connection.js')
 const app         = module.exports = express()
 const port        = process.env.PORT || 3000
 

@@ -3,22 +3,20 @@
   "version": "1.0.0",
   "description": "gDay app, this directory is for server side files",
   "main": "app.js",
-  "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon app.js"
-  },
-  "author": "Ryan Job Clark Tru Savannah",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/404-kid/gDay/issues"
-  },
-  "homepage": "https://github.com/404-kid/gDay#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
     "cors": "^2.8.4",
     "express": "^4.16.3",
     "knex": "^0.14.6",
     "morgan": "^1.9.0"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ryan Job Clark James Savannah",
+  "license": "ISC"
 }
