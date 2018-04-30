@@ -1,45 +1,41 @@
 { 
     "students":[
         {
-        "first_name":"Savannah",
-        "last_name":"Adams",
+        "name":"Savannah Adams",
         "email":"savannah.adams0@gmail.com",
         "image":"",
         "bio":"Ambitious full stack developer, with a background in linguistics and language.",
         "employer":"N/A",
         "position":"full-stack developer",
         "password":"password",
-        "Cohort":"G75"
+        "cohort":"G75"
             },  {
-                "first_name":"Ryan",
-                "last_name":"Hackemer",
+                "name":"Ryan Hackemer",
                 "email":"rhackemer@gmail.com",
                 "image":"",
-                "bio":"Talented full snack developer. Specialize in everything from pretzels to dried fruits. I also code.",
+                "bio":"Talented full snack developer. Specialize in everything from pretzels to dried fruits. I can also code.",
                 "employer":"N/A",
                 "position":"full-stack developer",
                 "password":"password",
-                "Cohort":"G75"
+                "cohort":"G75"
                     }, {
-                        "first_name":"Clark",
-                        "last_name":"Newell",
+                        "name":"William Clark Newell",
                         "email":"williamcnewell@gmail.com",
                         "image":"",
                         "bio":"I am Clark. I did not write a bio.",
                         "employer":"N/A",
                         "position":"full-stack developer",
                         "password":"password",
-                        "Cohort":"G75"
+                        "cohort":"G75"
                             },{
-                                "first_name":"James",
-                                "last_name":"Truitt",
+                                "first_name":"James Truitt",
                                 "email":"tru@rockyagirl.com",
                                 "image":"",
                                 "bio":"I am Tru, I did not write a bio",
                                 "employer":"N/A",
                                 "position":"full-stack developer",
                                 "password":"password",
-                                "Cohort":"G70"
+                                "cohort":"G70"
                                     }
     ]
 }
