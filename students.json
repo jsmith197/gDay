@@ -1,41 +1,41 @@
 { 
     "students":[
         {
-        "name":"Savannah Adams",
-        "email":"savannah.adams0@gmail.com",
-        "image":"https://i.imgur.com/KNx6jMW.jpg",
-        "bio":"Ambitious full stack developer, with a background in linguistics and language.",
-        "employer":"N/A",
-        "position":"full-stack developer",
-        "password":"password",
-        "cohort":"G75"
+        "name": "Savannah Adams",
+        "email": "savannah.adams0@gmail.com",
+        "image": "https://i.imgur.com/KNx6jMW.jpg",
+        "bio": "Ambitious full stack developer, with a background in linguistics and language.",
+        "employer": "N/A",
+        "position": "full-stack developer",
+        "password": "password",
+        "cohort": "75"
             },  {
-                "name":"Ryan Hackemer",
-                "email":"rhackemer@gmail.com",
-                "image":"https://i.imgur.com/wYePoDC.png?2",
-                "bio":"Talented full snack developer. Specialize in everything from pretzels to dried fruits. I can also code.",
-                "employer":"N/A",
-                "position":"full-stack developer",
-                "password":"password",
-                "cohort":"G75"
+                "name": "Ryan Hackemer",
+                "email": "rhackemer@gmail.com",
+                "image": "https://i.imgur.com/wYePoDC.png?2",
+                "bio": "Talented full snack developer. Specialize in everything from pretzels to dried fruits. I can also code.",
+                "employer": "N/A",
+                "position": "full-stack developer",
+                "password": "password",
+                "cohort": "75"
                     }, {
-                        "name":"William Clark Newell",
-                        "email":"williamcnewell@gmail.com",
-                        "image":"https://i.imgur.com/Crll06E.jpg",
-                        "bio":"I am Clark. I did not write a bio.",
-                        "employer":"N/A",
-                        "position":"full-stack developer",
-                        "password":"password",
-                        "cohort":"G75"
+                        "name": "William Clark Newell",
+                        "email": "williamcnewell@gmail.com",
+                        "image": "https://i.imgur.com/Crll06E.jpg",
+                        "bio": "Total Xennial, full stack developer, musician, German bilingual, with years of managerial experience.",
+                        "employer": "N/A",
+                        "position": "full-stack developer",
+                        "password": "password",
+                        "cohort": "75"
                             },{
-                                "first_name":"James Truitt",
-                                "email":"tru@rockyagirl.com",
-                                "image":"https://i.imgur.com/kfLGo2a.png",
-                                "bio":"I am Tru, I did not write a bio",
-                                "employer":"N/A",
-                                "position":"full-stack developer",
-                                "password":"password",
-                                "cohort":"G70"
+                                "first_name": "James Truitt",
+                                "email": "tru@rockyagirl.com",
+                                "image": "https://i.imgur.com/kfLGo2a.png",
+                                "bio": "I am Tru, I did not write a bio.",
+                                "employer": "N/A",
+                                "position": "full-stack developer",
+                                "password": "password",
+                                "cohort": "70"
                                     }
     ]
 }
