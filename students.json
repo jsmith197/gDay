@@ -18,7 +18,7 @@
         "image": "https://i.imgur.com/wYePoDC.png?2",
         "bio": "Talented full snack developer. Specialize in everything from pretzels to dried fruits. I can also code.",
         "employer": "Freelance",
-        "position": "Full-stack Developer",
+        "title": "Full-stack Developer",
         "password": "password",
         "cohort": "75"
         },
@@ -29,7 +29,7 @@
         "image": "https://i.imgur.com/Crll06E.jpg",
         "bio": "Total Xennial, full stack developer, musician, German bilingual, with years of managerial experience.",
         "employer": "Ableton Live",
-        "position": "Full-stack Developer",
+        "title": "Full-stack Developer",
         "password": "password",
         "cohort": "75"
         },
@@ -40,7 +40,7 @@
         "image": "https://i.imgur.com/kfLGo2a.png",
         "bio": "I am Tru!",
         "employer": "Rockyagirl.com",
-        "position": "Full-stack Developer",
+        "title": "Full-stack Developer",
         "password": "password",
         "cohort": "70"
                                     }
