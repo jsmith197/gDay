@@ -41,7 +41,6 @@ The user needs to:
     * Access a calendar of alumni events.
 
 The user needs:
-
     * Create a simple personal profile via Sign Up.
     * Register for gDay events via Schedule.
     * Shop gSchool swag (merch) via Shop.
