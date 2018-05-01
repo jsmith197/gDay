@@ -110,6 +110,7 @@ ul{
   background-color: #e9ecef;
   border-radius: 50%;
   position: absolute;
+  display: run-in;
   margin-left: 2px;
   margin-top: 2px;
   z-index: 10000;
@@ -123,6 +124,11 @@ ul{
   color: #ac3911;
   opacity: 0.5;
 }
+@media (max-width: 575px){
+  #cover{
+    display: inline;
+  }
+}
 @media (min-width: 576px){
   #navbar{
     margin-left: 0rem;
@@ -132,6 +138,8 @@ ul{
   }
   #cover{
     padding-left: 0rem;
+    /* display: run-in; */
+
   }
   ul{
     margin-left: 0;
@@ -146,6 +154,9 @@ ul{
   }
   ul{
     margin-left: 3rem;
+  }
+  #cover{
+    display: inline;
   }
 }
 @media (min-width: 992px){
