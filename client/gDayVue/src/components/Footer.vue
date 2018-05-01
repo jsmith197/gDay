@@ -41,9 +41,11 @@ export default {
 a{
   font-size: .8rem !important;
 }
-
 .navbar{
   padding: 0px;
 }
-
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+}
 </style>

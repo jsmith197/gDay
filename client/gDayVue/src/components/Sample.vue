@@ -24,4 +24,7 @@ export default {
   border-radius: 0%;
 }
 
+.text-primary {
+    color: #F79226 !important;
+}
 </style>

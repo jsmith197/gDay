@@ -2,6 +2,13 @@
   <div id="app">
     <Brand></Brand>
     <Nav></Nav>
+    <div class="progress">
+      <div class="progress-bar bg-danger" id="line"></div>
+    </div>
+    <About></About>
+    <div class="progress">
+      <div class="progress-bar bg-danger" id="line"></div>
+    </div>
     <Sample></Sample>
     <div class="progress container">
       <div class="progress-bar bg-danger" id="line"></div>
@@ -17,6 +24,7 @@ import Brand from './components/Brand'
 import Footer from './components/Footer'
 import Sample from './components/Sample'
 import Samples from './components/Samples'
+import About from './components/About'
 
 export default {
   name: 'App',
@@ -26,6 +34,7 @@ export default {
     Footer,
     Sample,
     Samples,
+    About,
   },
 };
 </script>
@@ -34,6 +43,8 @@ export default {
 #line{
   border-radius: 300%;
   width: 100%;
+  margin-left: 4.5;
+  margin-right: 4.5;
 }
 .bg-primary {
     background-color: #FF8500 !important;
@@ -43,6 +54,7 @@ export default {
 }
 .progress{
   height: .25rem !important;
+  margin: 1.25rem auto;
 }
 .dot {
   align-self: center;
@@ -52,5 +64,46 @@ export default {
   border-radius: 50%;
   display: inline-block;
 }
-
+@media (min-width: 276px){
+  .progress {
+      max-width: 250px;
+  }
+}
+@media (min-width: 376px){
+  .progress {
+      max-width: 330px;
+  }
+}
+@media (min-width: 576px){
+  .container {
+      max-width: 570px;
+  }
+  .progress {
+      max-width: 530px;
+  }
+}
+@media (min-width: 768px){
+  .container {
+    max-width: 720px;
+  }
+  .progress {
+    max-width: 700px;
+  }
+}
+@media (min-width: 992px){
+  .container {
+      max-width: 960px;
+  }
+  .progress {
+      max-width: 940px;
+  }
+}
+@media (min-width: 1200px) {
+  .container{
+    max-width: 1170px;
+  }
+  .progress {
+      max-width: 1150px;
+  }
+}
 </style>

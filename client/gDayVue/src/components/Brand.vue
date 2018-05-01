@@ -22,10 +22,16 @@ export default {
 #top{
   margin-bottom: 0px;
   border-radius: 0%;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 .img-fluid {
-    max-width: 300px;
+    max-width: 200px;
     height: auto;
+}
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 
