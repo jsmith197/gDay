@@ -1,29 +1,15 @@
-The Plan:
+# The Plan
 
-Bringing gSchool alumni, developers, and designers together for two days of hands on code & design talks alongside hackathons, picnics, happy hours, and game-like competitions. Networking with alumni from all over the country. Promoting (what is it promoting?)
+With the gDay web application our team seeks to create a platform for bringing together gSchool alumni, instructors, and support staff for an annual two-day extravaganza — filled with tech talks, guest speakers, hackathons, product demos, workshops, a picnic and happy hours. Our team created this application to inspire a vision of what an official 'Galvanize Alumni Day' might look like.
 
-Galvanize has always been about networking to promote a healthy and productive tech world and having those special interactions with designers & developers over good food and good drink.
+## A Celebration
 
+A big part of the Galvanize experience is about networking with your peers and being involved in the tech community. We want to continue that tradition, post-graduation by curating a chance to reconnect with friends, re-engage with our dynamic network of blossoming and seasoned professionals, and of course, celebrating the wondrous experience in which we all share.
 
-A Celebration:
+## Be Inspired
 
-Geared toward reconnecting Galvanize alumni, instructors, and support staff for an annual two-day extravaganza! Join us for a weekend of tech talks, activities, food, laughter, and possibly even a hackathon, while reconnecting with friends, engaging with our dynamic network of blossoming and seasoned professionals, and of course, celebrating the wondrous experience that first brought us all together.
+gDay is more than a reunion. It’s a place to learn and grow professionally and be introduced to new concepts and technologies. Topics and workshops range from DevOps to UX/UI design, "what's new in tech", and more.
 
-gDay is more than a reunion. It’s a place to learn and grow professionally, make new friends and have a great time. It can be a starting place for great debates on technology and philosophy around creating things for our digital world. 
+Event suggestions and general inquiries can be submitted via the community portal.
 
-Bringing together developers, designers, data scientists, and strategists. 
-
-New Inspiration for Everyone:
-
-This alumni day exists to inspire and build community. It also has an ability to introduce alumni to new concepts, languages, & frameworks. 
-
-Topics ranging from dev ops, frontend, backend, UX, strategy and more. Talks are submitted by speakers and voted on by the community.
-
-If you’re interested in submitting a talk, the call for speakers is out right now! Submit your talk today!
-
-
-A GATHERING.
-
-At the core, gDay is all about the community. It’s about bringing people together from different disciplines to share tricks and create friendships. It’s about having a good time with others in the industry in an informal setting that encourages the sharing of ideas. 
-
-Let's get together August 2019!
+Sign up today and we'll see you soon at gDay 2019!
