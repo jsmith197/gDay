@@ -53,53 +53,60 @@ One of the fundamentals gStudents learn is that networking is the key to being s
 
 ### First features to build
 
-* Login:
-    — Login username
-    — Login password
+#### Login
 
-* Sign up:
-    — First Name
-    — Last Name
-    — Email
-    — Password
-    — Password confirmation
-    — Photo upload
-    — Cohort number
-    — Job title
+* Login username
+* Login password
 
-* Schedule:
-    — About event
-      * Feature for checking yes no maybe attending this event
-      * Feature to add even to your Google calendar
-    — D3 / Time table visualization 
-      * Google campus map for functionality
+#### Sign up
 
-* Community (populated with user sign up data):
-    — Name
-    — Job title
-    — Photos
-    — Cohort number
+* First Name
+* Last Name
+* Email
+* Password
+* Password confirmation
+* Photo upload
+* Cohort number
+* Job title
 
-* Shop:
-    — Swag/merch
-    — Better version of logo
+#### Schedule
 
-* Contact:
-    — Email
-    — Twitter
-    — Galvanize Website
-    — YouTube
+* About event
+  * Feature for checking yes no maybe attending this event
+  * Feature to add even to your Google calendar
+* D3 / Time table visualization 
+  * Google campus map for functionality
 
-Later Features to Add:
+#### Community (populated with user sign up data)
 
-Login:
-    — Consider bot protection (type these letters and numbers)
+* Name
+* Job title
+* Photos
+* Cohort number
 
-Profile:
-    — Picture of alumni
-    — Bio
-    — Cohort Number
-    — Employer
+#### Shop
+
+* Swag/merch
+* Better version of logo
+
+#### Contact
+
+* Email
+* Twitter
+* Galvanize Website
+* YouTube
+
+### Later Features to Add
+
+* Login
+* Consider bot protection (type these letters and numbers)
+
+#### Profile Page
+
+* Picture of alumni
+* Bio
+* Cohort Number
+* Employer
 
 ## What technologies do you plan to use
 
