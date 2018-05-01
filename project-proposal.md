@@ -98,7 +98,6 @@ One of the fundamentals gStudents learn is that networking is the key to being s
 
 ### Later Features to Add
 
-* Login
 * Consider bot protection (type these letters and numbers)
 
 #### Profile Page
