@@ -8,27 +8,27 @@
     <div class="navbar-collapse collapse">
         <ul class="navbar-nav justify-content-center d-flex flex-fill">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            <a class="nav-link" id="nav-item" href="#">Home<span class="sr-only">(current)</span></a>
           </li>
           <span class="dot"></span>
           <li class="nav-item">
-            <a class="nav-link " href="#">About</a>
+            <a class="nav-link " id="nav-item" href="#">About</a>
           </li>
           <span class="dot"></span>
           <li class="nav-item">
-            <a class="nav-link " href="#">Members</a>
+            <a class="nav-link " id="nav-item" href="#">Members</a>
           </li>
           <span class="dot"></span>
           <li class="nav-item">
-            <a class="nav-link " href="#">Schedule</a>
+            <a class="nav-link " id="nav-item" href="#">Schedule</a>
           </li>
           <span class="dot"></span>
           <li class="nav-item">
-            <a class="nav-link " href="#">Merchandise</a>
+            <a class="nav-link " id="nav-item" href="#">Merchandise</a>
           </li>
           <span class="dot"></span>
           <li class="nav-item">
-            <a class="nav-link " href="#">Contact</a>
+            <a class="nav-link " id="nav-item" href="#">Contact</a>
           </li>
         </ul>
     </div>
@@ -67,11 +67,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-li {
+.nav-link{
   transition: color .5s ease-out !important;
 }
-li:hover{
-  opacity: 1;
+.nav-link:hover{
+  color: #e9ecef !important;
 }
 
 #login{
@@ -122,7 +122,7 @@ ul{
 }
 #login:hover #cover{
   color: #ac3911;
-  opacity: 0.5;
+  opacity: 0.4;
 }
 @media (max-width: 575px){
   #cover{
