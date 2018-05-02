@@ -13,6 +13,8 @@ https://docs.google.com/document/d/12D7pAaD-0g_bpK-WE25kqR3mKVBGTM38b2oFavo9uyU/
 GitHub Project Repo:
 https://github.com/404-kid/gDay
 
+Surge Url: foamy-mass.surge.sh
+
 
 
 
