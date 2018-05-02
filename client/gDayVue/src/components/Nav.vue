@@ -66,7 +66,7 @@ export default {
       activateLogin () {
         this.showLogin(true)
       }
-    }
+    },
 };
 </script>
 

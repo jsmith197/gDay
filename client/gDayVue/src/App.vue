@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Login v-if="login"></Login>
+    <Login v-if="login" :showLogin="showLogin"></Login>
     <Brand></Brand>
     <Nav :showLogin="showLogin"></Nav>
     <div class="progress">

@@ -34,7 +34,7 @@ export default {
   border-radius: 0%;
 }
 h2, h3, p {
-  color: #F79226 !important;
+  color: #2E1F27 !important;
 }
 h2{
   padding-top: 1rem;
