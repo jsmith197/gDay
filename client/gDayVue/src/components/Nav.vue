@@ -33,7 +33,7 @@
         </ul>
     </div>
     <div class="d-flex flex-fill" id="filler2"></div>
-    <div class="" id="login">
+    <div class="" id="login" v-on:click="activateLogin">
       <a class="nav-link"  href="#">
       {{login.question}}
       <div id="cover">
@@ -50,6 +50,9 @@
 <script>
 export default {
   name: 'Nav',
+  props: [
+    'showLogin'
+  ],
   data() {
     return {
       login:{
@@ -60,7 +63,9 @@ export default {
     };
   },
     methods: {
-
+      activateLogin () {
+        this.showLogin(true)
+      }
     }
 };
 </script>
@@ -138,7 +143,6 @@ ul{
   }
   #cover{
     padding-left: 0rem;
-    /* display: run-in; */
 
   }
   ul{

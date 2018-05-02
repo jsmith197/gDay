@@ -1,7 +1,8 @@
 <template>
   <div id="app">
+    <Login v-if="login"></Login>
     <Brand></Brand>
-    <Nav></Nav>
+    <Nav :showLogin="showLogin"></Nav>
     <div class="progress">
       <div class="progress-bar bg-danger" id="line"></div>
     </div>
@@ -14,11 +15,13 @@
       <div class="progress-bar bg-danger" id="line"></div>
     </div>
     <Samples></Samples>
+    <div v-if="login" v-on:click="deactivateLogin" class="bg-dark fixed-bottom" id="darkness"></div>
     <Footer></Footer>
   </div>
 </template>
 
 <script>
+import Login from './components/Login'
 import Nav from './components/Nav'
 import Brand from './components/Brand'
 import Footer from './components/Footer'
@@ -35,16 +38,41 @@ export default {
     Sample,
     Samples,
     About,
+    Login,
   },
+  methods: {
+    showLogin(result) {
+      this.login = result
+    },
+    deactivateLogin(){
+      this.login = false
+    }
+  },
+  data () {
+    return {
+      people: [],
+      login: false,
+    }
+  }
 };
 </script>
 
 <style>
+#darkness{
+  width: 100%;
+  height: 100vh;
+  opacity: .7;
+  position: run-in;
+  z-index: 10000000;
+}
 #line{
   border-radius: 300%;
   width: 100%;
   margin-left: 4.5;
   margin-right: 4.5;
+}
+.bg-dark{
+  background-color: #333 !important
 }
 .bg-primary {
     background-color: #FF8500 !important;
@@ -106,4 +134,5 @@ export default {
       max-width: 1150px;
   }
 }
+
 </style>
