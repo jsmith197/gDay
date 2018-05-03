@@ -10,7 +10,11 @@
     <div class="progress">
       <div class="progress-bar bg-danger" id="line"></div>
     </div>
-    <Sample></Sample>
+    <Schedule></Schedule>
+    <div class="progress container">
+      <div class="progress-bar bg-danger" id="line"></div>
+    </div>
+    <Members :people="people"></Members>
     <div class="progress container">
       <div class="progress-bar bg-danger" id="line"></div>
     </div>
@@ -28,6 +32,8 @@ import Footer from './components/Footer'
 import Sample from './components/Sample'
 import Samples from './components/Samples'
 import About from './components/About'
+import Schedule from './components/Schedule'
+import Members from './components/Members'
 
 export default {
   name: 'App',
@@ -39,6 +45,8 @@ export default {
     Samples,
     About,
     Login,
+    Schedule,
+    Members,
   },
   methods: {
     showLogin(result) {
@@ -53,8 +61,17 @@ export default {
       people: [],
       login: false,
     }
+  },
+  mounted () {
+    const apiURL = 'https://frozen-ravine-86831.herokuapp.com/'
+    fetch(apiURL)
+    .then(response => response.json())
+    .then(response => {
+      this.people = response
+    })
   }
-};
+}
+
 </script>
 
 <style>
