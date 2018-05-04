@@ -12,7 +12,9 @@ export default {
       msg: 'gDay',
     };
   },
-  props: ['people']
+  props: [
+    'people',
+    ]
 };
 </script>
 

@@ -1,4 +1,5 @@
-Galvanize Event App for Annual Alumni Reunion:  "gDay Event App" -- 
+# Galvanize Event App for Annual Alumni Reunion:  "gDay Event App" -
+
 WEB APP • REGISTRATION • gCALENDAR • SWAG
 
 
@@ -19,7 +20,7 @@ Surge Url: foamy-mass.surge.sh
 
 
 // Developers: Savannah Adams
-               Ryan Hackemer 
+               Ryan Hackemer
                Clark Newell
                Job Smith
                James Truitt
@@ -51,11 +52,11 @@ Surge Url: foamy-mass.surge.sh
         
     
     
-    - Schedule: 
+    - Schedule:
         - About event
             - Feature for checking yes no maybe attending this event
             - Feature to add even to your Google calendard
-        - D3 / Time table visualization 
+        - D3 / Time table visualization
         - Google campus map for functionality
     
     

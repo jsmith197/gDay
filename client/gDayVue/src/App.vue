@@ -28,25 +28,25 @@
 import Login from './components/Login'
 import Nav from './components/Nav'
 import Brand from './components/Brand'
-import Footer from './components/Footer'
-import Sample from './components/Sample'
-import Samples from './components/Samples'
 import About from './components/About'
 import Schedule from './components/Schedule'
 import Members from './components/Members'
+import Merch from './components/Merch'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 export default {
   name: 'App',
   components: {
     Brand,
     Nav,
-    Footer,
-    Sample,
-    Samples,
     About,
     Login,
     Schedule,
     Members,
+    Merch,
+    Contact,
+    Footer
   },
   methods: {
     showLogin(result) {
@@ -94,47 +94,55 @@ export default {
   },
   data () {
     return {
-      people: [],
       login: false,
-      apiURL:'https://frozen-ravine-86831.herokuapp.com/',
       image: 'gday-button.png',
-    }
+      people: [],
+      apiURL: 'https://frozen-ravine-86831.herokuapp.com/'
+    };
   },
   mounted () {
-    this.getPpl()
-
+    fetch(this.apiURL)
+    .then(response => response.json())
+    .then(response => {
+      this.people = response
+    });
   }
 }
-
 </script>
 
 <style>
-#darkness{
+#darkness {
   width: 100%;
   height: 100vh;
   opacity: .7;
   position: run-in;
   z-index: 10000000;
 }
-#line{
+
+#line {
   border-radius: 300%;
   width: 100%;
   margin-left: 4.5;
   margin-right: 4.5;
 }
-.bg-dark{
+
+.bg-dark {
   background-color: #333 !important
 }
+
 .bg-primary {
     background-color: #FF8500 !important;
 }
+
 .bg-danger {
     background-color: #2660a4 !important;
 }
-.progress{
+
+.progress {
   height: .25rem !important;
   margin: 1.25rem auto;
 }
+
 .dot {
   align-self: center;
   height: 3px;
@@ -143,25 +151,29 @@ export default {
   border-radius: 50%;
   display: inline-block;
 }
-@media (min-width: 276px){
+
+@media (min-width: 276px) {
   .progress {
-      max-width: 250px;
+    max-width: 250px;
   }
 }
-@media (min-width: 376px){
+
+@media (min-width: 376px) {
   .progress {
-      max-width: 330px;
+    max-width: 330px;
   }
 }
-@media (min-width: 576px){
+
+@media (min-width: 576px) {
   .container {
-      max-width: 570px;
+    max-width: 570px;
   }
   .progress {
-      max-width: 530px;
+    max-width: 530px;
   }
 }
-@media (min-width: 768px){
+
+@media (min-width: 768px) {
   .container {
     max-width: 720px;
   }
@@ -169,21 +181,22 @@ export default {
     max-width: 700px;
   }
 }
-@media (min-width: 992px){
+
+@media (min-width: 992px) {
   .container {
-      max-width: 960px;
+    max-width: 960px;
   }
   .progress {
-      max-width: 940px;
-  }
-}
-@media (min-width: 1200px) {
-  .container{
-    max-width: 1170px;
-  }
-  .progress {
-      max-width: 1150px;
+    max-width: 940px;
   }
 }
 
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+  .progress {
+    max-width: 1150px;
+  }
+}
 </style>
