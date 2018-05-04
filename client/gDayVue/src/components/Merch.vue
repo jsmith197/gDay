@@ -3,8 +3,8 @@
     <div class="progress">
       <div class="progress-bar bg-danger" id="line"></div>
     </div>
-    <h2>{{ title }}</h2>
-      <div class="progress">
+    <h2>{{title}}</h2>
+    <div class="progress">
       <div class="progress-bar bg-danger" id="line"></div>
     </div>
     <div class="grid-container">
@@ -18,19 +18,13 @@
 
 <script>
 export default {
-  name: 'Members',
-  props: {
-    people: {
-      type: Array,
-      required: true
-    }
-  },
+  name: 'Merch',
   data() {
     return {
-      title: 'Members'
-    }
-  }
-}
+      title: 'Merch',
+    };
+  },
+};
 </script>
 
 <style scoped>
@@ -40,7 +34,7 @@ export default {
   grid-template-rows: 250px;
   grid-gap: 10px;
   justify-content: center;
-    margin: 4rem 4rem;
+  margin: 4rem 4rem;
 }
 
 .item {
@@ -53,8 +47,9 @@ export default {
   background-color: #f93d66;
 }
 
-.container {
-
+#top{
+  margin-bottom: 0px;
+  border-radius: 0%;
 }
 
 h2 {
@@ -64,5 +59,9 @@ h2 {
   font-size: 50px;
   text-align: center;
   color: #272727;
+}
+
+.text-primary {
+    color: #F79226 !important;
 }
 </style>

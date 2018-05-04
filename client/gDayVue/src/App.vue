@@ -1,26 +1,18 @@
 <template>
   <div id="app">
     <Login v-if="login" :showLogin="showLogin"></Login>
-    <Brand></Brand>
+    <Brand/>
     <Nav :showLogin="showLogin"></Nav>
-    <div class="progress">
-      <div class="progress-bar bg-danger" id="line"></div>
-    </div>
-    <About></About>
-    <div class="progress">
-      <div class="progress-bar bg-danger" id="line"></div>
-    </div>
-    <Schedule></Schedule>
-    <div class="progress container">
-      <div class="progress-bar bg-danger" id="line"></div>
-    </div>
-    <Members :people="people"></Members>
-    <div class="progress container">
-      <div class="progress-bar bg-danger" id="line"></div>
-    </div>
-    <Samples></Samples>
+    <About/>
+    <Schedule/>
+    <Samples/>
     <div v-if="login" v-on:click="deactivateLogin" class="bg-dark fixed-bottom" id="darkness"></div>
-    <Footer></Footer>
+    <Members :people="people"/>
+    <Merch/>
+    <div class="progress">
+      <div class="progress-bar bg-danger" id="line"></div>
+    </div>
+    <Footer/>
   </div>
 </template>
 
@@ -28,25 +20,25 @@
 import Login from './components/Login'
 import Nav from './components/Nav'
 import Brand from './components/Brand'
-import Footer from './components/Footer'
-import Sample from './components/Sample'
-import Samples from './components/Samples'
 import About from './components/About'
 import Schedule from './components/Schedule'
+import Merch from './components/Merch'
+import Samples from './components/Samples'
 import Members from './components/Members'
+import Footer from './components/Footer'
 
 export default {
   name: 'App',
   components: {
     Brand,
     Nav,
-    Footer,
-    Sample,
+    Merch,
     Samples,
     About,
     Login,
-    Schedule,
     Members,
+    Footer,
+    Schedule
   },
   methods: {
     showLogin(result) {
@@ -58,13 +50,13 @@ export default {
   },
   data () {
     return {
-      people: [],
       login: false,
+      people: [],
+      apiURL: 'https://frozen-ravine-86831.herokuapp.com/'
     }
   },
   mounted () {
-    const apiURL = 'https://frozen-ravine-86831.herokuapp.com/'
-    fetch(apiURL)
+    fetch(this.apiURL)
     .then(response => response.json())
     .then(response => {
       this.people = response

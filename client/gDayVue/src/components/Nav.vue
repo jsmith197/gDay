@@ -16,15 +16,15 @@
           </li>
           <span class="dot"></span>
           <li class="nav-item">
+            <a class="nav-link " id="nav-item" href="#">Schedule</a>
+          </li>clea
+          <span class="dot"></span>
+          <li class="nav-item">
             <a class="nav-link " id="nav-item" href="#">Members</a>
           </li>
           <span class="dot"></span>
           <li class="nav-item">
-            <a class="nav-link " id="nav-item" href="#">Schedule</a>
-          </li>
-          <span class="dot"></span>
-          <li class="nav-item">
-            <a class="nav-link " id="nav-item" href="#">Merchandise</a>
+            <a class="nav-link " id="nav-item" href="#">Merch</a>
           </li>
           <span class="dot"></span>
           <li class="nav-item">

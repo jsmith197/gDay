@@ -1,7 +1,13 @@
 <template>
-  <div class="container">
+  <div class='container'>
+    <div class="progress">
+      <div class="progress-bar bg-danger" id="line"></div>
+    </div>
+    <h2>{{title}}</h2>
+    <div class="progress">
+      <div class="progress-bar bg-danger" id="line"></div>
+    </div>
     <body>
-      <br>
     </body>
   </div>
 </template>
@@ -11,14 +17,19 @@ export default {
   name: 'Schedule',
   data() {
     return {
-      msg: 'gDay',
-    };
-  },
-};
+      title: 'Schedule'
+    }
+  }
+}
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
-
+h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 900;
+  font-size: 10px;
+  font-size: 50px;
+  text-align: center;
+  color: #272727;
+}
 </style>
