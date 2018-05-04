@@ -39,8 +39,11 @@
       <div id="cover">
 
       </div>
-        <img :src="'static/' + login.img"
-        class="img-fluid"></a>
+
+        <img  :src="'static/' + this.image"
+        class="img-fluid"></img>
+
+      </a>
     </div>
 
 </nav>
@@ -51,12 +54,13 @@
 export default {
   name: 'Nav',
   props: [
-    'showLogin'
+    'showLogin',
+    'image',
   ],
   data() {
     return {
       login:{
-        img: 'gday-button.png',
+        img: '',
         question: "Login",
       },
       active: true,
@@ -65,7 +69,7 @@ export default {
     methods: {
       activateLogin () {
         this.showLogin(true)
-      }
+      },
     },
 };
 </script>

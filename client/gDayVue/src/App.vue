@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <Login v-if="login" :showLogin="showLogin"></Login>
+    <Login v-if="login" :showLogin="showLogin" :submit="submit" :people="people"></Login>
     <Brand></Brand>
-    <Nav :showLogin="showLogin"></Nav>
+    <Nav :showLogin="showLogin" :image="image"></Nav>
     <div class="progress">
       <div class="progress-bar bg-danger" id="line"></div>
     </div>
@@ -19,7 +19,7 @@
       <div class="progress-bar bg-danger" id="line"></div>
     </div>
     <Samples></Samples>
-    <div v-if="login" v-on:click="deactivateLogin" class="bg-dark fixed-bottom" id="darkness"></div>
+    <div v-if="login" v-on:click="showLogin(false)" class="bg-dark fixed-bottom" id="darkness"></div>
     <Footer></Footer>
   </div>
 </template>
@@ -52,23 +52,57 @@ export default {
     showLogin(result) {
       this.login = result
     },
-    deactivateLogin(){
-      this.login = false
-    }
+    getPpl(){
+      fetch(this.apiURL)
+      .then(response => response.json())
+      .then(response => {
+        this.people = response
+      })
+
+    },
+    submit(newUser) {
+      this.showLogin(false)
+      this.people.push(newUser)
+      this.image = 'gday-button-inverse.png'
+      // fetch(this.apiURL, {
+      //   method: "POST",
+      //   headers: new Headers({
+      //     "content-type": "application/json",
+      //   }),
+      //   body: JSON.stringify(function() {
+      //     return {
+      //       data: {
+      //         name: newUser.name,
+      //         email:newUser.email,
+      //         image:newUser.image,
+      //         bio:newUser.bio,
+      //         employer:newUser.employer,
+      //         title:newUser.title,
+      //         password:newUser.password,
+      //         cohort:newUser.cohort,
+      //       }
+      //     }
+      //   })
+      //   }).then(response => {
+      //     return response.json()
+      // })
+      // .then(function(data){
+      // })
+      //   .catch(console.error)
+
+    },
   },
   data () {
     return {
       people: [],
       login: false,
+      apiURL:'https://frozen-ravine-86831.herokuapp.com/',
+      image: 'gday-button.png',
     }
   },
   mounted () {
-    const apiURL = 'https://frozen-ravine-86831.herokuapp.com/'
-    fetch(apiURL)
-    .then(response => response.json())
-    .then(response => {
-      this.people = response
-    })
+    this.getPpl()
+
   }
 }
 
