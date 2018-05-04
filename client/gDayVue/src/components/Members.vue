@@ -40,7 +40,7 @@ export default {
   grid-template-rows: 250px;
   grid-gap: 10px;
   justify-content: center;
-    margin: 4rem 4rem;
+  margin: 4rem 4rem;
 }
 
 .item {
@@ -51,10 +51,6 @@ export default {
   border-radius: 3px;
   font-size: 35px;
   background-color: #f93d66;
-}
-
-.container {
-
 }
 
 h2 {

@@ -11,13 +11,12 @@ export default {
   name: 'Samples',
   data() {
     return {
-      msg: 'gDay',
-    };
-  },
+      msg: 'gDay'
+    }
+  }
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #top{
   margin-bottom: 0px;
@@ -27,5 +26,4 @@ export default {
 .text-primary {
     color: #F79226 !important;
 }
-
 </style>

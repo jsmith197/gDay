@@ -3,7 +3,7 @@
     <div class="progress">
       <div class="progress-bar bg-danger" id="line"></div>
     </div>
-    <h2>{{title}}</h2>
+    <h2>{{ title }}</h2>
     <div class="progress">
       <div class="progress-bar bg-danger" id="line"></div>
     </div>
