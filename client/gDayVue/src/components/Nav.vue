@@ -17,7 +17,7 @@
           <span class="dot"></span>
           <li class="nav-item">
             <a class="nav-link " id="nav-item" href="#">Schedule</a>
-          </li>clea
+          </li>
           <span class="dot"></span>
           <li class="nav-item">
             <a class="nav-link " id="nav-item" href="#">Members</a>
