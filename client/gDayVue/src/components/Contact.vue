@@ -14,11 +14,11 @@ export default {
       msg: 'gDay'
     }
   }
-};
+}
 </script>
 
 <style scoped>
-#top{
+#top {
   margin-bottom: 0px;
   border-radius: 0%;
 }
