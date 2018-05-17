@@ -112,4 +112,4 @@ One of the fundamentals gStudents learn is that networking is the key to being s
 (Please add to this as you figure out what other technologies you will need)
 
 • HTML • CSS • JS • Vue.js • Cypress • Postgres • Express • Knex • Heroku
-• Bootstrap/Bootswatch • Postman • Node.js • CSS Grid • Git
+• Bootstrap/Bootswatch • Postman • Node.js • CSS Grid • Git • PhotoShop
